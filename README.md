@@ -1,28 +1,28 @@
-# PHP wrapper pro práci s Ecomail.cz API
+# PHP wrapper for Ecomail.app API
 
 [![Build Status](https://travis-ci.org/Ecomailcz/ecomail-php.svg?branch=master)](https://travis-ci.org/Ecomailcz/ecomail-php)
 [![Downloads this Month](https://img.shields.io/packagist/dm/ecomailcz/ecomail.svg)](https://packagist.org/packages/ecomailcz/ecomail)
 
-# Instalace
+# Installation
 
 ```
 composer require ecomailcz/ecomail
 ```
 
-# Použití
+# Usage
 
 ```
 $ecomail = new Ecomail('API_KEY');
 $ecomail->getListsCollection();
 ```
 
-API klíč naleznete v nastavení vašeho účtu v sekci integrace.
+You can find your API key in your account settings in integrations tab.
 
-# Seznam dostupných metod
+# Available methods
 
-Všechny metody mají návratový typ: `array stdClass string`
+All methods returns: `array stdClass string`
 
-Pro více informací prosím navštivte dokumentaci naší API: https://ecomailczv2.docs.apiary.io/
+For more informations please visit API docs: https://ecomailappapiv2.docs.apiary.io/
 
 ### getListsCollection
 
