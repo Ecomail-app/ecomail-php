@@ -14,7 +14,7 @@ class Ecomail
         JSONArray = 'jsona',
         PlainText = 'plaintext';
 
-    /** @var string $key Klíč API */
+    /** @var string $key Key API */
     private $key;
 
 
@@ -22,7 +22,7 @@ class Ecomail
     private $server;
 
 
-    /** @var string $response Návratový typ */
+    /** @var string $response Return type */
     private $response;
 
 
@@ -33,7 +33,7 @@ class Ecomail
      * @param string $response Návratový typ
      * @param string $server Server API
      */
-    public function __construct($key, $response = self::JSONArray, $server = 'https://api2.ecomailapp.cz')
+    public function __construct($key, $response = self::JSONArray, $server = 'https://api2.ecomailapp.com')
     {
         $this->key = $key;
         $this->server = $server;
